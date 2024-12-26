@@ -1,33 +1,42 @@
-Projeto de Urna Eletrônica em C
-Desenvolvido por Guilherme Abtibol Lira Valente
-Atividade Extracurricular - 2º Período de Engenharia de Software
+Urna Eletrônica em C
+Projeto desenvolvido como parte de uma atividade extracurricular durante o segundo período do curso de Engenharia de Software. Este programa simula o funcionamento básico de uma urna eletrônica, permitindo o cadastro de candidatos, registro de votos e apuração de resultados.
 
-Durante o segundo período letivo do curso de Engenharia de Software, participei de uma atividade extracurricular onde desenvolvi um sistema de urna eletrônica utilizando a linguagem de programação C. O objetivo do projeto foi simular o funcionamento básico de uma votação digital, permitindo que os usuários registrassem seus votos de forma simples e segura.
-
-Funcionalidades do Projeto
+Funcionalidades
 Cadastro de Candidatos:
-O sistema permite o registro de candidatos, identificados por número e nome.
+
+Permite registrar candidatos com um número identificador e nome.
 Registro de Votos:
-Os eleitores podem votar no candidato de sua escolha, utilizando seu número identificador.
+
+Usuários podem votar utilizando o número do candidato.
 Apuração de Resultados:
-Após o encerramento da votação, o sistema exibe o total de votos de cada candidato e declara o vencedor.
-Segurança Básica:
-Para evitar votos duplicados, implementei um sistema simples de controle baseado em identificadores únicos para cada eleitor.
+
+Exibe o total de votos de cada candidato e declara o vencedor.
+Validação Simples:
+
+Controle básico para evitar votos duplicados.
 Aspectos Técnicos
 Linguagem: C
 Estruturas Utilizadas:
-Arrays para armazenar os dados dos candidatos e votos.
-Estruturas condicionais e laços para controlar o fluxo da votação.
-Funções para modularizar o código e facilitar a manutenção.
-Desafios:
-Garantir que os votos fossem registrados corretamente sem duplicidade.
-Desenvolver uma interface intuitiva para os usuários, mesmo sendo em console.
+Arrays para armazenamento de dados.
+Estruturas condicionais e laços para controle de fluxo.
+Funções para modularização e organização do código.
+Como Executar
+Clone este repositório:
+bash
+Copiar código
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Compile o código:
+bash
+Copiar código
+gcc urna_eletronica.c -o urna
+Execute o programa:
+bash
+Copiar código
+./urna
 Motivação
-Este projeto foi motivado pelo desejo de explorar o uso da linguagem C em aplicações práticas e entender como sistemas simples podem ser a base de soluções mais complexas. Além disso, o desenvolvimento da urna eletrônica foi uma oportunidade de consolidar os conhecimentos adquiridos em sala de aula, como manipulação de arrays e criação de funções.
+Este projeto foi criado para aplicar os conceitos de programação em C aprendidos durante o curso e explorar como sistemas simples podem simular funcionalidades mais complexas. Foi uma experiência enriquecedora para consolidar o aprendizado e desenvolver habilidades práticas.
 
-Resultados
-O projeto foi concluído com sucesso e demonstrado para colegas e professores. Foi uma experiência enriquecedora que me proporcionou:
-
-Maior familiaridade com a linguagem C.
-Aprendizado sobre o design de sistemas interativos.
-Reconhecimento da importância de boas práticas no desenvolvimento de software.
+Contato
+Desenvolvedor: Guilherme Abtibol Lira Valente
+Curso: Engenharia de Software
+Período: 2º
